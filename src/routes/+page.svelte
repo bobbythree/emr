@@ -8,7 +8,7 @@
 
 <div id="container">
   {#each patients as patient}
-    <PatientCard name = {patient.name} mr = {patient.mr} photo = {test} info = {patient.info} />
+    <PatientCard name = {patient.name} mr = {patient.mr} photo = {test} info = {patient.info} link = {patient.link}/>
     
   {/each}
 
